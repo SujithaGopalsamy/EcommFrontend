@@ -1,13 +1,16 @@
 import { useState } from 'react'
-import './App.css'
-
+//import './App.css'
+import EcommMenu from './Components/EcommMenu'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-        <p>test</p>
-      </>
+<div >
+
+              <EcommMenu />
+              </div>
+
+     
   )
 }
 
